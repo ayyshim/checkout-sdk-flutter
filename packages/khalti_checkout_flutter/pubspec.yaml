@@ -23,7 +23,10 @@ dependencies:
   http: ^1.2.0
   internet_connection_checker_plus: ^2.2.0
   khalti_checkout_core:
-    path: ../khalti_checkout_core
+    git:
+      url: git@github.com:ayyshim/checkout-sdk-flutter.git
+      ref: main
+      path: packages/khalti_checkout_core
 
   meta: ^1.11.0
   url_launcher: ^6.2.5
